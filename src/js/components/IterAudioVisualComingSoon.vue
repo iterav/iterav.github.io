@@ -1,7 +1,7 @@
 <script setup lang="js"></script>
 
 <template>
-	<section>Services</section>
+	<img alt="ITer Audio Visual Logo" src="@/img/iter-audio-visual-coming-soon.png" />
 </template>
 
 <style scoped lang="css"></style>

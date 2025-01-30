@@ -9,7 +9,7 @@ import globals from 'globals';
 export default [
     {
         ignores: [
-            '**/public',
+            '**/dist',
             '**/node_modules',
 			'**/jsconfig.json',
 			'**/vite.config.js',

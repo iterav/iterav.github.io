@@ -1,0 +1,16 @@
+{
+	"short_name": "ITer AV",
+	"name": "ITer Audio Visual (AV) Services",
+	"description": "Provides Audio Visual (AV) Services across Ireland",
+	"icons": [{
+		"src": "icon.png",
+		"type": "image/png",
+		"sizes": "192x192"
+	}],
+	"id": "/?utm_source=homescreen",
+	"start_url": "/?utm_source=homescreen",
+	"background_color": "#ffffff",
+	"display": "standalone",
+	"scope": "/",
+	"theme_color": "#000000"
+}

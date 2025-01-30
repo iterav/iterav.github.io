@@ -6,4 +6,5 @@ export default {
     singleQuote: true,
     trailingComma: 'es5',
     bracketSameLine: true,
+	embeddedLanguageFormatting: 'off',
 };
