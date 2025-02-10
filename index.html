@@ -3,9 +3,8 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preload" as="image" href="src/img/iter-audio-visual-icon.png" />
 		<title>ITer Audio Visual Services Ireland</title>
-		<link rel="stylesheet" href="src/css/styles.css" />
-		<link rel="preload" as="image" href="src/img/iter-audio-visual-coming-soon.png" />
 		<meta name="description" content="Provides AV Services across Ireland" />
 		<meta name="keywords" content="ITer, Audio, Visual, AV, Services, Ireland" />
 		<meta name="robots" content="index, follow, archive" />
@@ -13,19 +12,23 @@
 		<meta property="og:description" content="Provides AV Services across Ireland" />
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="https://www.iterav.ie/" />
-		<meta property="og:image" content="img/iter-audio-visual-logo.png" />
+		<meta property="og:image" content="src/img/iter-audio-visual-logo.png" />
 		<meta property="og:locale" content="en_IE" />
 		<link rel="home" href="https://www.iterav.ie/" />
+		<link rel="manifest" href="/site.manifest.json" />
 		<link rel="icon" href="/favicon.ico" sizes="any" />
-		<!--
-		<link rel="icon" href="/icon.svg" type="image/svg+xml" />
-		<link rel="apple-touch-icon" href="/icon.png" />
-		<link rel="manifest" href="/site.webmanifest" />
-		<meta name="theme-color" content="#ffffff" />
-		-->
+		<link rel="icon" href="/icon-192x192.png" sizes="192x192" />
+		<link rel="apple-touch-icon" href="/icon-180x180.png" sizes="180x180" />
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-RY7V42EY44"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-RY7V42EY44');
+		</script>
 	</head>
-	<body class="flex items-center justify-center h-dvh bg-linear-to-r/shorter from-fuchsia-700 to-indigo-400">
-		<div id="app"></div>
+	<body class="antialiased bg-linear-to-r/shorter from-fuchsia-700 to-blue-900">
+		<div id="app" class="w-full"></div>
 		<script type="module" src="src/js/scripts.js"></script>
 	</body>
 </html>

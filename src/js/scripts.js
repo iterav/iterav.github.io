@@ -1,7 +1,10 @@
 import '@/css/styles.css';
 
+import Splide from '@splidejs/vue-splide';
 import { createApp } from 'vue';
 
-import IterAudioVisualApp from '@/js/IterAudioVisualApp.vue';
+import App from '@/js/App.vue';
 
-createApp(IterAudioVisualApp).mount('#app');
+const app = createApp(App);
+app.use(Splide);
+app.mount('#app');

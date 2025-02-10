@@ -1,7 +1,0 @@
-<script setup lang="js"></script>
-
-<template>
-	<section>Services</section>
-</template>
-
-<style scoped lang="css"></style>

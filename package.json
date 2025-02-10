@@ -28,20 +28,20 @@
 	"scripts": {
 		"dev": "vite",
 		"lint": "eslint . --fix",
-		"format": "prettier src/**/*.{js,vue,css,html} --write",
+		"format": "prettier src/**/*.{js,vue,css} --write",
 		"build": "vite build",
 		"preview": "vite preview"
 	},
 	"dependencies": {
-		"vite": "^6.0.11",
+		"@splidejs/vue-splide": "^0.6.12",
+		"vite": "^6.1.0",
 		"vue": "^3.5.13"
 	},
 	"devDependencies": {
-		"@tailwindcss/vite": "^4.0.0",
-		"@vitejs/plugin-vue": "^5.2.1",
-		"tailwindcss": "^4.0.0",
 		"@eslint/js": "^9.19.0",
-		"eslint": "^9.19.0",
+		"@tailwindcss/vite": "^4.0.5",
+		"@vitejs/plugin-vue": "^5.2.1",
+		"eslint": "^9.20.0",
 		"eslint-config-prettier": "^10.0.1",
 		"eslint-plugin-no-relative-import-paths": "^1.6.1",
 		"eslint-plugin-prettier": "^5.2.3",
@@ -49,7 +49,8 @@
 		"eslint-plugin-unused-imports": "^4.1.4",
 		"eslint-plugin-vue": "^9.32.0",
 		"globals": "^15.14.0",
-		"prettier": "^3.4.2",
+		"prettier": "^3.5.0",
+		"tailwindcss": "^4.0.5",
 		"vite-plugin-eslint": "^1.8.1"
 	}
 }
