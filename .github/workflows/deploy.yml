@@ -38,7 +38,7 @@ jobs:
               uses: actions/upload-artifact@v4
               with:
                   path: ./dist
-                  name: iterav-github-pages
+                  name: iterav-github-pages.zip
 
     deploy:
         runs-on: ubuntu-latest
@@ -50,5 +50,5 @@ jobs:
             - name: Deploy to GitHub Pages
               id: deployment
               uses: actions/deploy-pages@v4
-              #with:
-              #    artifact_name: iterav-github-pages
+              with:
+                  artifact_name: iterav-github-pages.tgz
