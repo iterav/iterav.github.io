@@ -6,7 +6,9 @@
 			<h2 class="text-white text-5xl font-xeola font-black tracking-wide drop-shadow-3xl">Services</h2>
 			<div class="flex flex-col xl:flex-row w-full gap-12">
 				<div class="flex flex-col items-start justify-start w-full xl:w-1/3 relative">
-					<div class="absolute z-10 bg-[url('@/img/home-office.jpg')] size-full bg-cover lg:bg-contain xl:bg-cover opacity-20 rounded-xl"></div>
+					<div class="absolute z-10 size-full opacity-20 flex flex-col items-center justify-center rounded-xl">
+						<img src="@/img/home-office.jpg" alt="Home Office" class="size-full object-cover object-center rounded-xl" />
+					</div>
 					<div class="z-20 flex flex-col items-start justify-start w-full gap-8 p-8 rounded-xl">
 						<h3 class="text-white text-3xl font-lexend font-bold">Residential</h3>
 						<p class="text-white text-xl font-lexend font-normal">Transform your home into a smarter, safer space with expert installation, fitting, and seamless integration of hardware and software. Control your home effortlessly—whether through a touchscreen or your mobile device—tailored to suit your needs.</p>
@@ -80,7 +82,9 @@
 					</div>
 				</div>
 				<div class="flex flex-col items-start justify-start w-full xl:w-2/3 bg-fuchsia-700/50 rounded-xl relative">
-					<div class="absolute z-10 bg-[url('@/img/multiple-waves.svg')] bg-no-repeat bg-bottom size-full rounded-xl"></div>
+					<div class="absolute z-10 size-full flex flex-col items-center justify-center rounded-xl">
+						<img src="@/img/multiple-waves.svg" alt="Multiple Waves" class="size-full object-contain object-bottom rounded-xl" />
+					</div>
 					<div class="flex flex-col items-start justify-start w-full relative z-20 gap-8 p-8 rounded-xl">
 						<h3 class="text-white text-3xl font-lexend font-bold">Commercial</h3>
 						<p class="text-white text-xl font-lexend font-normal">Looking for seamless integration of all your business needs by a team of professionals?</p>
@@ -269,7 +273,9 @@
 							</ul>
 						</div>
 						<div class="flex flex-col w-full lg:w-2/3 relative">
-							<div class="absolute z-10 bg-[url('@/img/meeting-room.jpg')] size-full bg-cover opacity-20 rounded-xl"></div>
+							<div class="absolute z-10 size-full opacity-20 flex flex-col items-center justify-center rounded-xl">
+								<img src="@/img/meeting-room.jpg" alt="Meeting Room" class="size-full object-cover object-center rounded-xl" />
+							</div>
 							<div class="z-20 flex flex-col items-start justify-start w-full gap-8 p-8 rounded-xl">
 								<h4 class="text-white text-2xl font-lexend font-bold">Unified Collaboration Systems</h4>
 								<ul class="list-disc text-white text-xl font-lexend font-normal flex flex-col gap-4">
