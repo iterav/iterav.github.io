@@ -101,39 +101,39 @@ async function handleSubmit(event) {
 		<div class="relative z-20 flex flex-col items-center w-full">
 			<div class="container flex flex-col w-full items-center justify-center gap-12">
 				<h2 class="text-white text-5xl font-xeola font-black tracking-wide drop-shadow-3xl">Contact our team</h2>
-				<p class="text-center text-white text-xl w-full xl:w-[60%] font-lexend font-normal">We'd love to hear form you! Whether you have questions, need support, or want to learn more about our services, our team is here to help.</p>
-				<div id="contact-form-status" class="hidden w-full items-center justify-center p-4 rounded-xl text-white text-xl font-lexend font-normal transition-all duration-300 ease-in-out"></div>
+				<p class="text-center text-white text-lg md:text-xl w-full xl:w-[60%] font-lexend font-normal">We'd love to hear form you! Whether you have questions, need support, or want to learn more about our services, our team is here to help.</p>
+				<div id="contact-form-status" class="hidden w-full items-center justify-center p-4 rounded-xl text-white text-lg md:text-xl font-lexend font-normal transition-all duration-300 ease-in-out"></div>
 				<div class="flex flex-col lg:flex-row items-start justify-start gap-12 w-full">
 					<form class="flex flex-col items-center justify-center gap-8 pt-4 pb-8 px-8 w-full rounded-xl lg:w-2/3 bg-white/5" action="https://formspree.io/f/mjkgyepj" method="POST" @submit.prevent="handleSubmit($event)">
 						<div class="flex flex-col w-full gap-8">
 							<div class="flex flex-col md:flex-row lg:flex-col xl:flex-row gap-8">
 								<div class="flex flex-col w-full">
-									<label id="firstName-label" for="firstName-input" class="text-white text-xl font-lexend font-bold py-4 after:text-red-500 after:content-['*'] after:ml-2">First name</label>
-									<input id="firstName-input" v-model="fields.firstName" type="text" name="firstName" aria-labelledby="firstName-label" inputmode="text" :placeholder="errors.firstName ? errors.firstName : 'John'" :class="errors.firstName ? 'placeholder:text-red-500' : ''" class="text-slate-500 text-xl font-lexend font-normal bg-white p-4 rounded-xl ring-0 outline-0 focus:ring-0 focus:outline-0 appearance-none whitespace-nowrap text-ellipsis text-left transition-colors duration-300 ease-in-out" />
+									<label id="firstName-label" for="firstName-input" class="text-white text-lg md:text-xl font-lexend font-bold py-4 after:text-red-500 after:content-['*'] after:ml-2">First name</label>
+									<input id="firstName-input" v-model="fields.firstName" type="text" name="firstName" aria-labelledby="firstName-label" inputmode="text" :placeholder="errors.firstName ? errors.firstName : 'John'" :class="errors.firstName ? 'placeholder:text-red-500' : ''" class="text-slate-500 text-lg md:text-xl font-lexend font-normal bg-white p-4 rounded-xl ring-0 outline-0 focus:ring-0 focus:outline-0 appearance-none whitespace-nowrap text-ellipsis text-left transition-colors duration-300 ease-in-out" />
 								</div>
 								<div class="flex flex-col w-full">
-									<label id="lastName-label" for="lastName-input" class="text-white text-xl font-lexend font-bold py-4 after:text-red-500 after:content-['*'] after:ml-2">Last name</label>
-									<input id="lastName-input" v-model="fields.lastName" type="text" name="lastName" aria-labelledby="lastName-label" inputmode="text" :placeholder="errors.lastName ? errors.lastName : 'Doe'" :class="errors.lastName ? 'placeholder:text-red-500' : ''" class="text-slate-500 text-xl font-lexend font-normal p-4 rounded-xl bg-white ring-0 outline-0 focus:ring-0 focus:outline-0 appearance-none whitespace-nowrap text-ellipsis text-left transition-colors duration-300 ease-in-out" />
+									<label id="lastName-label" for="lastName-input" class="text-white text-lg md:text-xl font-lexend font-bold py-4 after:text-red-500 after:content-['*'] after:ml-2">Last name</label>
+									<input id="lastName-input" v-model="fields.lastName" type="text" name="lastName" aria-labelledby="lastName-label" inputmode="text" :placeholder="errors.lastName ? errors.lastName : 'Doe'" :class="errors.lastName ? 'placeholder:text-red-500' : ''" class="text-slate-500 text-lg md:text-xl font-lexend font-normal p-4 rounded-xl bg-white ring-0 outline-0 focus:ring-0 focus:outline-0 appearance-none whitespace-nowrap text-ellipsis text-left transition-colors duration-300 ease-in-out" />
 								</div>
 							</div>
 							<div class="flex flex-col">
-								<label id="email-label" for="email-input" class="text-white text-xl font-lexend font-bold py-4 after:text-red-500 after:content-['*'] after:ml-2">Email</label>
-								<input id="email-input" v-model="fields.email" type="email" name="email" aria-labelledby="email-label" inputmode="email" :placeholder="errors.email ? errors.email : 'johndoe@gmail.com'" :class="errors.email ? 'placeholder:text-red-500' : ''" class="text-slate-500 text-xl font-lexend font-normal p-4 rounded-xl bg-white ring-0 outline-0 focus:ring-0 focus:outline-0 appearance-none whitespace-nowrap text-ellipsis text-left transition-colors duration-300 ease-in-out" />
+								<label id="email-label" for="email-input" class="text-white text-lg md:text-xl font-lexend font-bold py-4 after:text-red-500 after:content-['*'] after:ml-2">Email</label>
+								<input id="email-input" v-model="fields.email" type="email" name="email" aria-labelledby="email-label" inputmode="email" :placeholder="errors.email ? errors.email : 'johndoe@gmail.com'" :class="errors.email ? 'placeholder:text-red-500' : ''" class="text-slate-500 text-lg md:text-xl font-lexend font-normal p-4 rounded-xl bg-white ring-0 outline-0 focus:ring-0 focus:outline-0 appearance-none whitespace-nowrap text-ellipsis text-left transition-colors duration-300 ease-in-out" />
 							</div>
 							<div class="flex flex-col">
-								<label id="contactNumber-label" for="contactNumber-input" class="text-white text-xl font-lexend font-bold py-4 after:text-red-500 after:content-['*'] after:ml-2">Contact number</label>
-								<input id="contactNumber-input" v-model="fields.contactNumber" type="tel" name="contactNumber" aria-labelledby="contactNumber-label" inputmode="numeric" :placeholder="errors.contactNumber ? errors.contactNumber : '087 000 0000'" :class="errors.contactNumber ? 'placeholder:text-red-500 text-red-500' : 'text-slate-500'" class="text-xl font-lexend font-normal p-4 rounded-xl bg-white ring-0 outline-0 focus:ring-0 focus:outline-0 appearance-none whitespace-nowrap text-ellipsis text-left transition-colors duration-300 ease-in-out" />
+								<label id="contactNumber-label" for="contactNumber-input" class="text-white text-lg md:text-xl font-lexend font-bold py-4 after:text-red-500 after:content-['*'] after:ml-2">Contact number</label>
+								<input id="contactNumber-input" v-model="fields.contactNumber" type="tel" name="contactNumber" aria-labelledby="contactNumber-label" inputmode="numeric" :placeholder="errors.contactNumber ? errors.contactNumber : '087 000 0000'" :class="errors.contactNumber ? 'placeholder:text-red-500 text-red-500' : 'text-slate-500'" class="text-lg md:text-xl font-lexend font-normal p-4 rounded-xl bg-white ring-0 outline-0 focus:ring-0 focus:outline-0 appearance-none whitespace-nowrap text-ellipsis text-left transition-colors duration-300 ease-in-out" />
 							</div>
 						</div>
 						<div class="flex flex-col w-full">
-							<label id="message-label" for="message-input" class="text-white text-xl font-lexend font-bold py-4 after:text-red-500 after:content-['*'] after:ml-2">Message</label>
-							<textarea id="message-input" v-model="fields.message" name="message" rows="8" aria-labelledby="message-label" inputmode="text" :placeholder="errors.message ? errors.message : 'I would like to ask you...'" :class="errors.message ? 'placeholder:text-red-500' : ''" class="text-slate-500 text-xl font-lexend font-normal p-4 rounded-xl bg-white ring-0 outline-0 focus:ring-0 focus:outline-0 appearance-none whitespace-nowrap text-ellipsis text-left transition-colors duration-300 ease-in-out"></textarea>
+							<label id="message-label" for="message-input" class="text-white text-lg md:text-xl font-lexend font-bold py-4 after:text-red-500 after:content-['*'] after:ml-2">Message</label>
+							<textarea id="message-input" v-model="fields.message" name="message" rows="8" aria-labelledby="message-label" inputmode="text" :placeholder="errors.message ? errors.message : 'I would like to ask you...'" :class="errors.message ? 'placeholder:text-red-500' : ''" class="text-slate-500 text-lg md:text-xl font-lexend font-normal p-4 rounded-xl bg-white ring-0 outline-0 focus:ring-0 focus:outline-0 appearance-none whitespace-nowrap text-ellipsis text-left transition-colors duration-300 ease-in-out"></textarea>
 						</div>
 						<div class="flex w-full pt-4">
-							<button id="submit" type="submit" name="submit" class="w-full cursor-pointer p-4 rounded-xl text-white text-xl font-lexend font-bold bg-amber-400 hover:bg-amber-500 active:bg-amber-600 transition-colors duration-300 ease-in-out">Send message</button>
+							<button id="submit" type="submit" name="submit" class="w-full cursor-pointer p-4 rounded-xl text-white text-lg md:text-xl font-lexend font-bold bg-amber-400 hover:bg-amber-500 active:bg-amber-600 transition-colors duration-300 ease-in-out">Send message</button>
 						</div>
 					</form>
-					<div class="flex flex-col items-start justify-start gap-8 p-8 w-full lg:w-1/3 text-white text-xl font-lexend font-normal rounded-xl bg-white/5 relative overflow-hidden">
+					<div class="flex flex-col items-start justify-start gap-8 p-8 w-full lg:w-1/3 text-white text-lg md:text-xl font-lexend font-normal rounded-xl bg-white/5 relative overflow-hidden">
 						<h3 class="font-bold">Chat with us</h3>
 						<div class="flex flex-col items-start justify-start gap-4">
 							<p>Speak to our friendly team, via live chat.</p>
