@@ -5,14 +5,14 @@ const testimonials = [{
 	color: 'bg-fuchsia-700 lg:bg-blue-900 xl:bg-fuchsia-700',
 	message: 'The service provided by ITer AV has completely transformed the way we do business. The team is incredibly responsive, and the results speak for themselves.',
 	stars: 5,
-	image: './src/img/seandelaney.jpg',
+	image: new URL('@/img/seandelaney.jpg', import.meta.url).href,
 	fullName: 'Sean Delaney',
 	jobTitle: 'Director, DelaneyMethod',
 }, {
 	color: 'bg-blue-900 lg:bg-fuchsia-700 xl:bg-blue-900',
 	message: 'We saw a noticeable improvement in efficiency and customer satisfaction within just a few weeks. Highly recommend ITer Audio Visual services to anyone looking to streamline their AV operations!',
 	stars: 5,
-	image: './src/img/ashleyboyd.jpg',
+	image: new URL('@/img/ashleyboyd.jpg', import.meta.url).href,
 	fullName: 'Ashley Boyd',
 	jobTitle: 'Communications Manager',
 }];
