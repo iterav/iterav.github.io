@@ -59,7 +59,7 @@ const scrollToSection = (sectionId) => {
 			<div class="container flex flex-row items-center justify-center">
 				<div class="flex flex-row items-center justify-between w-full">
 					<a :href="site.url" :title="site.title" class="flex flex-row items-center justify-center gap-4">
-						<img :src="resolveImage(site.image)" alt="Logo" class="w-auto h-[4.375rem]" />
+						<img :src="site.image" alt="Logo" class="w-auto h-[4.375rem]" />
 						<h1 class="mt-2.5 text-white text-6xl font-xeola font-medium leading-none tracking-wide">{{ site.title }}</h1>
 					</a>
 					<button v-if="!isMobileMenuOpen" class="text-white hover:text-neutral-300 active:text-neutral-400 cursor-pointer transition-colors duration-300 ease-in-out" @click="toggleMobileMenu">
