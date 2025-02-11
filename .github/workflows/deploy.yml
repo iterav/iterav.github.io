@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Build & Deploy
 
 on:
     push:
@@ -19,26 +19,26 @@ jobs:
     build:
         runs-on: ubuntu-latest
         steps:
-            - name: Checkout
+            - name: Checkout 🛎️
               uses: actions/checkout@v4
-            - name: Set up Node
+
+            - name: Set up Node 🔧
               uses: actions/setup-node@v4
               with:
                   node-version: 22
                   cache: npm
-            - name: Install dependencies
+
+            - name: Install 🔧
               run: npm install
-            - name: Build
+
+            - name: Build 🏗️
               run: npm run build
-            - name: Verify build output
-              run: ls -la dist
-            - name: Setup Pages
-              uses: actions/configure-pages@v5
-            - name: Upload artifact
-              uses: actions/upload-artifact@v4
-              with:
-                  path: dist
-                  name: iterav-github-pages.zip
+
+            #- name: Upload artifact 🏗️
+            #  uses: actions/upload-artifact@v4
+            #  with:
+            #      path: dist
+            #      name: iterav-github-pages
 
     deploy:
         runs-on: ubuntu-latest
@@ -47,8 +47,11 @@ jobs:
             name: github-pages
             url: ${{ steps.deployment.outputs.page_url }}
         steps:
-            - name: Deploy to GitHub Pages
+            - name: Deploy to GitHub Pages 🚀
               id: deployment
-              uses: actions/deploy-pages@v4
+              #uses: actions/deploy-pages@v4
+              uses: peaceiris/actions-gh-pages@v3
               with:
-                  artifact_name: iterav-github-pages.zip
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_dir: dist
+                  #artifact_name: iterav-github-pages
