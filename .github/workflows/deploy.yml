@@ -7,7 +7,7 @@ on:
     workflow_dispatch:
 
 permissions:
-    contents: read
+    contents: write
     pages: write
     id-token: write
 
@@ -52,3 +52,4 @@ jobs:
               uses: actions/deploy-pages@v4
               with:
                   artifact_name: iterav-github-pages.zip
+                  GITHUB_TOKEN: ${{ secrets.ITER_AV_PERSONAL_ACCESS_TOKEN }}
