@@ -34,7 +34,7 @@ const scrollToSection = (sectionId) => {
 </script>
 
 <template>
-	<header :class="isMobileMenuOpen ? 'bg-linear-to-r/shorter from-indigo-950 from-30% to-slate-950 to-100% lg:bg-none' : ''" class="flex flex-row justify-center relative py-8 transition-all duration-300 ease-in-out">
+	<header :class="isMobileMenuOpen ? 'bg-linear-to-r/shorter from-indigo-950 from-30% to-slate-950 to-100% lg:bg-none' : ''" class="flex flex-row justify-center relative py-8">
 		<div class="flex absolute inset-x-0 bottom-0 h-px bg-white/5"></div>
 		<div class="container hidden lg:flex flex-row items-center justify-between">
 			<a href="/" title="ITer AV" class="flex flex-row items-center justify-center gap-4">
