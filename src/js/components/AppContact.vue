@@ -105,7 +105,7 @@ async function handleSubmit(event) {
 		</div>
 		<div class="relative z-20 flex flex-col items-center w-full">
 			<div class="container flex flex-col w-full items-center justify-center gap-12">
-				<h2 class="text-center text-white text-4xl md:text-5xl font-xeola font-black tracking-wide drop-shadow-3xl">Contact our team</h2>
+				<h2 class="text-center text-white text-4xl md:text-5xl font-xeola font-black tracking-wide drop-shadow-3xl">Contact our AV team</h2>
 				<p class="text-center text-white text-lg md:text-xl w-full xl:w-[60%] font-lexend font-normal leading-8">We'd love to hear form you! Whether you have questions, need support, or want to learn more about our services, our team is here to help.</p>
 				<div id="contact-form-status" class="hidden w-full items-center justify-center p-4 rounded-xl text-white text-lg md:text-xl font-lexend font-normal transition-all duration-300 ease-in-out"></div>
 				<div class="flex flex-col lg:flex-row items-start justify-start gap-12 w-full">

@@ -4,7 +4,7 @@
 <template>
 	<section id="services" class="flex items-center justify-center py-20  bg-linear-to-b/shorter from-slate-800 from-50% to-slate-950 to-100%">
 		<div class="container flex flex-col items-start justify-center gap-12">
-			<h2 class="text-white text-4xl md:text-5xl font-xeola font-black tracking-wide drop-shadow-3xl">Services</h2>
+			<h2 class="text-white text-4xl md:text-5xl font-xeola font-black tracking-wide drop-shadow-3xl">AV Services</h2>
 			<div class="flex flex-col xl:flex-row w-full gap-12">
 				<div class="flex flex-col items-start justify-start w-full xl:w-1/3 relative">
 					<div class="absolute z-10 size-full opacity-20 flex flex-col items-center justify-center rounded-xl">
