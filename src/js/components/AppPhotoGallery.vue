@@ -27,28 +27,26 @@ const options = {
 };
 
 const gallery = [{
-	src: '../../img/monitors-mounted-on-wall.jpg',
+	src: new URL('@/img/monitors-mounted-on-wall.jpg', import.meta.url).href,
 	alt: 'Monitors mounted on wall',
 	effects: '-rotate-2 hover:rotate-0 transition-all duration-300 ease-in-out',
 }, {
-	src: '../../img/boardroom-6.jpg',
+	src: new URL('@/img/boardroom-6.jpg', import.meta.url).href,
 	alt: 'Boardroom',
 	effects: 'rotate-4 hover:rotate-0 transition-all duration-300 ease-in-out',
 }, {
-	src: '../../img/audio-visual-controller.jpg',
+	src: new URL('@/img/audio-visual-controller.jpg', import.meta.url).href,
 	alt: 'Audio Visual controller',
 	effects: '-rotate-4 hover:rotate-0 transition-all duration-300 ease-in-out',
 }, {
-	src: '../../img/row-of-monitors-on-wall.jpg',
+	src: new URL('@/img/row-of-monitors-on-wall.jpg', import.meta.url).href,
 	alt: 'Row of monitors on wall',
 	effects: '-rotate-4 hover:rotate-0 transition-all duration-300 ease-in-out',
 }, {
-	src: '../../img/dual-monitors-mounted-on-wall.jpg',
+	src: new URL('@/img/dual-monitors-mounted-on-wall.jpg', import.meta.url).href,
 	alt: 'Dual monitors mounted on wall',
 	effects: 'rotate-2 hover:rotate-0 transition-all duration-300 ease-in-out',
 }];
-
-const resolveImage = image => new URL(image, import.meta.url).href;
 </script>
 
 <template v-if="gallery.length > 0">
@@ -64,7 +62,7 @@ const resolveImage = image => new URL(image, import.meta.url).href;
 			</div>
 			<Splide :options="options" role="group" aria-label="Photo Gallery">
 				<SplideSlide v-for="(image, index) in gallery" :key="index" class="flex items-center justify-center">
-					<img :src="resolveImage(image.src)" :alt="image.alt" :class="image.effects" class="w-auto h-[320px] md:h-[390px] rounded-xl object-cover drop-shadow-xl" />
+					<img :src="image.src" :alt="image.alt" :class="image.effects" class="w-auto h-[320px] md:h-[390px] rounded-xl object-cover drop-shadow-xl" />
 				</SplideSlide>
 			</Splide>
 		</div>

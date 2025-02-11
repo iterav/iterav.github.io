@@ -16,7 +16,7 @@ export default defineConfig(({ command }) => ({
 			sourcemap: true,
 		},
 	},
-	base: command === 'serve' ? '/' : '/iterav.github.io/',
+	base: '/', // command === 'serve' ? '/' : '/iterav.github.io/',
 	plugins: [
 		vue(),
 		tailwindcss(),

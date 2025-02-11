@@ -6,7 +6,7 @@ const isMobileMenuOpen = ref(false);
 const site = {
 	url: '/',
 	title: 'ITer AV',
-	image: '../../img/iter-audio-visual-icon.png',
+	image: new URL('@/img/iter-audio-visual-icon.png', import.meta.url).href,
 };
 
 const sections = [{
@@ -31,8 +31,6 @@ const closeMobileMenu = () => isMobileMenuOpen.value = false;
 
 const toggleMobileMenu = () => isMobileMenuOpen.value = !isMobileMenuOpen.value;
 
-const resolveImage = image => new URL(image, import.meta.url).href;
-
 const scrollToSection = (sectionId) => {
 	const section = document.getElementById(sectionId);
 	if (section) {
@@ -46,7 +44,7 @@ const scrollToSection = (sectionId) => {
 		<div class="flex absolute inset-x-0 bottom-0 h-px bg-white/5"></div>
 		<div class="container hidden lg:flex flex-row items-center justify-between">
 			<a :href="site.url" :title="site.title" class="flex flex-row items-center justify-center gap-4">
-				<img :src="resolveImage(site.image)" alt="Logo" class="w-auto h-[4.375rem]" />
+				<img :src="site.image" alt="Logo" class="w-auto h-[4.375rem]" />
 				<h1 class="mt-2.5 text-white text-6xl font-xeola font-medium leading-none tracking-wide">{{ site.title }}</h1>
 			</a>
 			<nav aria-label="Global navigation" class="flex flex-row">

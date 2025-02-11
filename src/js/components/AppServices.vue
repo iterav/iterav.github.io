@@ -1,5 +1,4 @@
-<script setup lang="js">
-</script>
+<script setup lang="js"></script>
 
 <template>
 	<section id="services" class="flex items-center justify-center py-20  bg-linear-to-b/shorter from-slate-800 from-50% to-slate-950 to-100%">
