@@ -101,7 +101,7 @@ async function handleSubmit(event) {
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
 				<path fill="#ffffff" fill-opacity="0.05" d="M0,128L1440,320L1440,320L0,320Z"></path>
 			</svg>
-			<div class="flex w-full bg-white h-[200px] opacity-[0.05]"></div>
+			<div class="flex w-full bg-white h-[12.5rem] opacity-[0.05]"></div>
 		</div>
 		<div class="relative z-20 flex flex-col items-center w-full">
 			<div class="container flex flex-col w-full items-center justify-center gap-12">

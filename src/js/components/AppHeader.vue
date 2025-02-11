@@ -68,7 +68,7 @@ const scrollToSection = (sectionId) => {
 					</button>
 				</div>
 			</div>
-			<div v-if="isMobileMenuOpen" class="absolute top-[89px] py-10 z-50 flex flex-col items-center justify-center w-full bg-linear-to-r/shorter from-indigo-950 from-30% to-slate-950 to-100% drop-shadow-3xl border-px border-t border-white/5">
+			<div v-if="isMobileMenuOpen" class="absolute top-[5.563rem] py-10 z-50 flex flex-col items-center justify-center w-full bg-linear-to-r/shorter from-indigo-950 from-30% to-slate-950 to-100% drop-shadow-3xl border-px border-t border-white/5">
 				<nav aria-label="Global navigation" class="w-full flex flex-col items-center">
 					<ul class="flex flex-col items-center gap-12 text-lg font-lexend font-bold w-full">
 						<li v-for="(section, index) in sections" :key="index">

@@ -7,7 +7,7 @@ const options = {
 	start: 0,
 	perMove: 1,
 	perPage: 5,
-	gap: '64px',
+	gap: '4rem',
 	type: 'loop',
 	arrows: true,
 	keyboard: true,
@@ -22,28 +22,28 @@ const options = {
 const gallery = [{
 	src: new URL('@/img/monitors-mounted-on-wall.webp', import.meta.url).href,
 	alt: 'Monitors mounted on wall',
-	width: '533px',
-	height: '400px',
+	width: '33.313rem',
+	height: '25rem',
 }, {
 	src: new URL('@/img/boardroom-6.webp', import.meta.url).href,
 	alt: 'Boardroom',
-	width: '533px',
-	height: '400px',
+	width: '33.313rem',
+	height: '25rem',
 }, {
 	src: new URL('@/img/audio-visual-controller.webp', import.meta.url).href,
 	alt: 'Audio Visual controller',
-	width: '641px',
-	height: '400px',
+	width: '40.063rem',
+	height: '25rem',
 }, {
 	src: new URL('@/img/row-of-monitors-on-wall.webp', import.meta.url).href,
 	alt: 'Row of monitors on wall',
-	width: '533px',
-	height: '400px',
+	width: '33.313rem',
+	height: '25rem',
 }, {
 	src: new URL('@/img/dual-monitors-mounted-on-wall.webp', import.meta.url).href,
 	alt: 'Dual monitors mounted on wall',
-	width: '533px',
-	height: '400px',
+	width: '33.313rem',
+	height: '25rem',
 }];
 </script>
 

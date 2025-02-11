@@ -2,7 +2,7 @@
 import AppContact from '@/js/components/AppContact.vue';
 import AppExperience from '@/js/components/AppExperience.vue';
 import AppHero from '@/js/components/AppHero.vue';
-import AppPhotoGallery from '@/js/components/AppPhotoGallery.vue';
+// import AppPhotoGallery from '@/js/components/AppPhotoGallery.vue';
 import AppQuote from '@/js/components/AppQuote.vue';
 import AppServices from '@/js/components/AppServices.vue';
 import AppTestimonials from '@/js/components/AppTestimonials.vue';
@@ -14,7 +14,9 @@ import AppTestimonials from '@/js/components/AppTestimonials.vue';
 		<AppExperience />
 		<AppServices />
 		<AppQuote />
+		<!--
 		<AppPhotoGallery />
+		-->
 		<AppTestimonials />
 		<AppContact />
 	</main>

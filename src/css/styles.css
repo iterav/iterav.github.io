@@ -12,6 +12,30 @@
 	src: url('@/fonts/lexend/font.ttf') format('truetype');
 }
 
+@keyframes beat {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.2);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes breathe {
+	0% {
+		box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+	}
+	70% {
+		box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+	}
+	100% {
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+
 @utility container {
 	padding-inline: 2rem;
 }
@@ -20,4 +44,6 @@
 	--font-xeola: 'Xeola', sans-serif;
 	--font-lexend: 'Lexend', sans-serif;
 	--drop-shadow-3xl: 0 1.563rem 1.563rem rgba(0, 0, 0, 0.5);
+	--animate-beat: beat 2s ease-in-out infinite;
+	--animate-breathe: breathe 2s ease-in-out infinite;
 }
