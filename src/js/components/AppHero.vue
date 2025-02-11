@@ -9,7 +9,7 @@
 			</div>
 			<div class="-z-1 absolute inset-x-0 bottom-0 h-[25%] bg-slate-800"></div>
 		</div>
-		<div class="absolute z-10 size-full bg-[url('@/img/abstract-circles.svg')] bg-center bg-no-repeat bg-cover opacity-[0.1] flex items-center justify-center"></div>
+		<!--<div class="absolute z-10 size-full bg-[url('@/img/abstract-circles.svg')] bg-center bg-no-repeat bg-cover opacity-[0.1] flex items-center justify-center"></div>-->
 	</section>
 </template>
 
