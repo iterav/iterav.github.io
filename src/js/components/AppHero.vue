@@ -4,7 +4,7 @@
 	<section class="flex flex-col items-center relative -mb-20 overflow-hidden">
 		<div class="flex flex-col w-full items-center relative z-20">
 			<div class="container flex flex-col items-center justify-start pt-30 pb-20 gap-20">
-				<h1 class="text-center text-white text-5xl md:text-6xl lg:text-7xl font-heading font-black leading-[70px] md:leading-[80px] lg:leading-[90px] drop-shadow-3xl w-full">
+				<h1 class="text-center text-white text-4xl md:text-6xl lg:text-7xl font-heading font-black leading-[70px] md:leading-[80px] lg:leading-[90px] drop-shadow-3xl w-full">
 					Create Next-Gen<br />Audio&nbsp;Visual&nbsp;<br class="flex sm:hidden" />Solutions<br />for Next-Level <br class="flex sm:hidden" />Experiences
 				</h1>
 				<img src="@/img/boardroom.jpg" alt="Boardroom" class="w-full md:w-[750px] rounded-xl" />

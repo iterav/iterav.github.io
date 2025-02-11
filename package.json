@@ -29,7 +29,7 @@
 		"dev": "vite",
 		"lint": "eslint . --fix",
 		"format": "prettier src/**/*.{js,vue,css} --write",
-		"build": "vite build && cp CNAME dist",
+		"build": "vite build && cp CNAME dist && cp robots.txt dist && cp sitemap.xml dist",
 		"preview": "vite preview",
 		"deploy": "gh-pages -d dist -b github-pages"
 	},

@@ -33,8 +33,8 @@ function validateForm() {
 		errors.value.email = 'A valid email is required';
 	}
 
-	if (!fields.value.contactNumber || !/^\d{10}$/.test(fields.value.contactNumber)) {
-		errors.value.contactNumber = 'A valid contact number is required';
+	if (!fields.value.contactNumber) {
+		errors.value.contactNumber = 'Contact number is required';
 	}
 
 	if (!fields.value.message) {
@@ -71,7 +71,7 @@ async function handleSubmit(event) {
 		status.classList.remove('bg-red-500');
 		status.classList.add('flex');
 		status.classList.remove('hidden');
-		status.innerHTML = 'Thanks for your submission!';
+		status.innerHTML = 'Thanks for contacting us. We’ll get back to you shortly!';
 
 		event.target.reset();
 	} else {
@@ -87,6 +87,11 @@ async function handleSubmit(event) {
 		status.classList.remove('hidden');
 		status.innerHTML = errorMessage;
 	}
+
+    const contact = document.querySelector('#contact');
+    if (contact) {
+        contact.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
 }
 </script>
 
