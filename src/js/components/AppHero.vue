@@ -7,7 +7,7 @@
 				<h1 class="text-center text-white text-4xl md:text-6xl lg:text-7xl font-heading font-black leading-[70px] md:leading-[80px] lg:leading-[90px] drop-shadow-3xl w-full">
 					Create Next-Gen<br />Audio&nbsp;Visual&nbsp;<br class="flex sm:hidden" />Solutions<br />for Next-Level <br class="flex sm:hidden" />Experiences
 				</h1>
-				<img src="@/img/boardroom.jpg" alt="Boardroom" class="w-full md:w-[750px] rounded-xl" />
+				<img src="@/img/boardroom.webp" alt="Boardroom" class="w-full md:w-[750px] rounded-xl" />
 			</div>
 			<div class="-z-1 absolute inset-x-0 bottom-0 h-[25%] bg-slate-800"></div>
 		</div>

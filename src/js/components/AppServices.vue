@@ -8,7 +8,7 @@
 			<div class="flex flex-col xl:flex-row w-full gap-12">
 				<div class="flex flex-col items-start justify-start w-full xl:w-1/3 relative">
 					<div class="absolute z-10 size-full opacity-20 flex flex-col items-center justify-center rounded-xl">
-						<img src="@/img/home-office.jpg" alt="Home Office" class="size-full object-cover object-center rounded-xl" />
+						<img src="@/img/home-office.webp" alt="Home Office" class="size-full object-cover object-center rounded-xl" />
 					</div>
 					<div class="z-20 flex flex-col items-start justify-start w-full gap-8 p-8 rounded-xl">
 						<h3 class="text-white text-2xl md:text-3xl font-lexend font-bold">Residential</h3>
@@ -280,7 +280,7 @@
 						</div>
 						<div class="flex flex-col w-full lg:w-2/3 relative">
 							<div class="absolute z-10 size-full opacity-20 flex flex-col items-center justify-center rounded-xl">
-								<img src="@/img/meeting-room.jpg" alt="Meeting Room" class="size-full object-cover object-center rounded-xl" />
+								<img src="@/img/meeting-room.webp" alt="Meeting Room" class="size-full object-cover object-center rounded-xl" />
 							</div>
 							<div class="z-20 flex flex-col items-start justify-start w-full gap-8 p-8 rounded-xl">
 								<h4 class="text-white text-2xl font-lexend font-bold">Unified Collaboration Systems</h4>
