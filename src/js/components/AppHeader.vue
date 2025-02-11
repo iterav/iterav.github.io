@@ -53,8 +53,8 @@ const scrollToSection = (sectionId) => {
 			<div class="container flex flex-row items-center justify-center">
 				<div class="flex flex-row items-center justify-between w-full">
 					<a href="/" title="ITer AV" class="flex flex-row items-center justify-center gap-4">
-						<img src="@/img/iter-audio-visual-icon.png" alt="Logo" class="w-auto h-[4.375rem]" />
-						<h1 class="mt-2.5 text-white text-6xl font-xeola font-medium leading-none tracking-wide">ITer AV</h1>
+						<img src="@/img/iter-audio-visual-icon.png" alt="Logo" class="w-auto h-[3.375rem]" />
+						<h1 class="mt-2.5 text-white text-5xl font-xeola font-medium leading-none tracking-wide">ITer AV</h1>
 					</a>
 					<button v-if="!isMobileMenuOpen" class="text-white hover:text-neutral-300 active:text-neutral-400 cursor-pointer transition-colors duration-300 ease-in-out" @click="toggleMobileMenu">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
@@ -68,7 +68,7 @@ const scrollToSection = (sectionId) => {
 					</button>
 				</div>
 			</div>
-			<div v-if="isMobileMenuOpen" class="absolute top-[101px] py-10 z-50 flex flex-col items-center justify-center w-full bg-linear-to-r/shorter from-indigo-950 from-30% to-slate-950 to-100% drop-shadow-3xl border-px border-t border-white/5">
+			<div v-if="isMobileMenuOpen" class="absolute top-[89px] py-10 z-50 flex flex-col items-center justify-center w-full bg-linear-to-r/shorter from-indigo-950 from-30% to-slate-950 to-100% drop-shadow-3xl border-px border-t border-white/5">
 				<nav aria-label="Global navigation" class="w-full flex flex-col items-center">
 					<ul class="flex flex-col items-center gap-12 text-lg font-lexend font-bold w-full">
 						<li v-for="(section, index) in sections" :key="index">
