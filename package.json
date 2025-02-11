@@ -1,0 +1,58 @@
+{
+	"name": "iterav",
+	"description": "ITer Audio Visual (AV) Services",
+	"version": "1.0.0",
+	"author": "Sean Delaney",
+	"keywords": [
+		"ITer",
+		"Audio",
+		"Visual",
+		"AV",
+		"Services",
+		"Ireland"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/iterav/iterav.github.io.git"
+	},
+	"bugs": {
+		"url": "https://github.com/iterav/iterav.github.io/issues"
+	},
+	"engines": {
+		"node": ">=22",
+		"npm": ">=10"
+	},
+	"homepage": "https://www.iterav.ie",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"lint": "eslint . --fix",
+		"format": "prettier src/**/*.{js,vue,css} --write",
+		"build": "vite build",
+		"preview": "vite preview",
+		"deploy": "gh-pages -d . -b github-pages"
+	},
+	"dependencies": {
+		"@splidejs/vue-splide": "^0.6.12",
+		"vite": "^6.1.0",
+		"vue": "^3.5.13"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.19.0",
+		"@tailwindcss/vite": "^4.0.5",
+		"@vitejs/plugin-vue": "^5.2.1",
+		"eslint": "^9.20.0",
+		"eslint-config-prettier": "^10.0.1",
+		"eslint-plugin-no-relative-import-paths": "^1.6.1",
+		"eslint-plugin-prettier": "^5.2.3",
+		"eslint-plugin-simple-import-sort": "^12.1.1",
+		"eslint-plugin-unused-imports": "^4.1.4",
+		"eslint-plugin-vue": "^9.32.0",
+		"gh-pages": "^6.3.0",
+		"globals": "^15.14.0",
+		"prettier": "^3.5.0",
+		"tailwindcss": "^4.0.5",
+		"vite-plugin-eslint": "^1.8.1"
+	}
+}

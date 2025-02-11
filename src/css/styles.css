@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+
+@font-face {
+	font-family: 'Xeola';
+	src:
+		url('@/fonts/xeola/font.woff2') format('woff2'),
+		url('@/fonts/xeola/font.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Lexend';
+	src: url('@/fonts/lexend/font.ttf') format('truetype');
+}
+
+@utility container {
+	padding-inline: 2rem;
+}
+
+@theme {
+	--font-xeola: 'Xeola', sans-serif;
+	--font-lexend: 'Lexend', sans-serif;
+	--drop-shadow-3xl: 0 1.563rem 1.563rem rgba(0, 0, 0, 0.5);
+}
