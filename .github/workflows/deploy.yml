@@ -28,6 +28,12 @@ jobs:
                   node-version: 22
                   cache: npm
 
+            - name: Remove Cache
+              run: rm -rf node_modules/.cache
+
+            - name: Remove Dist
+              run: rm -rf dist
+
             - name: Install
               run: npm install
 
@@ -53,9 +59,6 @@ jobs:
             - name: Deploy to GitHub Pages 🚀
               id: deployment
               uses: actions/deploy-pages@v4
-              #uses: peaceiris/actions-gh-pages@v4
               with:
                   token: ${{ secrets.GITHUB_TOKEN }}
-                  #publish_branch: 'github-pages'
-                  #publish_dir: dist
                   artifact_name: iterav-github-pages
