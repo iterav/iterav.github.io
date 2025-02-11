@@ -8,7 +8,7 @@
 			<p class="text-white text-xl font-lexend font-normal">Our install team of certified tradespeople brings extensive expertise in the Irish building industry, ensuring your installation is in trusted hands. A superior polished finish is at the core of our vision.</p>
 			<p class="text-white text-xl font-lexend font-normal">Our consultancy team prioritises end-user functionality, ensuring that your vision for the look, sound, and feel of your spaces is fully realised and fit for purpose. With extensive experience in customer service, we have a proven track record of servicing, supporting, and implementing high-quality audio visual systems tailored to your needs.</p>
 		</div>
-		<!--<div class="absolute z-10 -bottom-[50px] right-0 lg:right-[20%] w-[500px] h-[500px] bg-[url('@/img/audio-wave.svg')] bg-no-repeat bg-contain opacity-[0.05]"></div>-->
+		<div class="absolute z-10 -bottom-[50px] right-0 lg:right-[20%] w-[500px] h-[500px] bg-[url('@/img/audio-wave.svg')] bg-no-repeat bg-contain opacity-[0.05]"></div>
 	</section>
 </template>
 

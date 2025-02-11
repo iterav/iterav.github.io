@@ -3,12 +3,6 @@ import { ref } from 'vue';
 
 const isMobileMenuOpen = ref(false);
 
-const site = {
-	url: '/',
-	title: 'ITer AV',
-	image: new URL('@/img/iter-audio-visual-icon.png', import.meta.url).href,
-};
-
 const sections = [{
 	id: 'experience',
 	title: 'Experience',
@@ -43,9 +37,9 @@ const scrollToSection = (sectionId) => {
 	<header :class="isMobileMenuOpen ? 'bg-linear-to-r/shorter from-indigo-950 from-30% to-slate-950 to-100% lg:bg-none' : ''" class="flex flex-row justify-center relative py-8 transition-all duration-300 ease-in-out">
 		<div class="flex absolute inset-x-0 bottom-0 h-px bg-white/5"></div>
 		<div class="container hidden lg:flex flex-row items-center justify-between">
-			<a :href="site.url" :title="site.title" class="flex flex-row items-center justify-center gap-4">
-				<img :src="site.image" alt="Logo" class="w-auto h-[4.375rem]" />
-				<h1 class="mt-2.5 text-white text-6xl font-xeola font-medium leading-none tracking-wide">{{ site.title }}</h1>
+			<a href="/" title="ITer AV" class="flex flex-row items-center justify-center gap-4">
+				<img src="@/img/iter-audio-visual-icon.png" alt="Logo" class="w-auto h-[4.375rem]" />
+				<h1 class="mt-2.5 text-white text-6xl font-xeola font-medium leading-none tracking-wide">ITer AV</h1>
 			</a>
 			<nav aria-label="Global navigation" class="flex flex-row">
 				<ul class="flex flex-row items-center justify-center gap-8 xl:gap-12 text-lg font-lexend font-bold">
@@ -58,9 +52,9 @@ const scrollToSection = (sectionId) => {
 		<div class="flex lg:hidden flex-col items-center justify-center relative w-full gap-20">
 			<div class="container flex flex-row items-center justify-center">
 				<div class="flex flex-row items-center justify-between w-full">
-					<a :href="site.url" :title="site.title" class="flex flex-row items-center justify-center gap-4">
-						<img :src="site.image" alt="Logo" class="w-auto h-[4.375rem]" />
-						<h1 class="mt-2.5 text-white text-6xl font-xeola font-medium leading-none tracking-wide">{{ site.title }}</h1>
+					<a href="/" title="ITer AV" class="flex flex-row items-center justify-center gap-4">
+						<img src="@/img/iter-audio-visual-icon.png" alt="Logo" class="w-auto h-[4.375rem]" />
+						<h1 class="mt-2.5 text-white text-6xl font-xeola font-medium leading-none tracking-wide">ITer AV</h1>
 					</a>
 					<button v-if="!isMobileMenuOpen" class="text-white hover:text-neutral-300 active:text-neutral-400 cursor-pointer transition-colors duration-300 ease-in-out" @click="toggleMobileMenu">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
