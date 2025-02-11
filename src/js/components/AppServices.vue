@@ -3,16 +3,16 @@
 <template>
 	<section id="services" class="flex items-center justify-center py-20  bg-linear-to-b/shorter from-slate-800 from-50% to-slate-950 to-100%">
 		<div class="container flex flex-col items-start justify-center gap-12">
-			<h2 class="text-white text-5xl font-xeola font-black tracking-wide drop-shadow-3xl">Services</h2>
+			<h2 class="text-white text-4xl md:text-5xl font-xeola font-black tracking-wide drop-shadow-3xl">Services</h2>
 			<div class="flex flex-col xl:flex-row w-full gap-12">
 				<div class="flex flex-col items-start justify-start w-full xl:w-1/3 relative">
 					<div class="absolute z-10 size-full opacity-20 flex flex-col items-center justify-center rounded-xl">
 						<img src="@/img/home-office.jpg" alt="Home Office" class="size-full object-cover object-center rounded-xl" />
 					</div>
 					<div class="z-20 flex flex-col items-start justify-start w-full gap-8 p-8 rounded-xl">
-						<h3 class="text-white text-3xl font-lexend font-bold">Residential</h3>
-						<p class="text-white text-xl font-lexend font-normal">Transform your home into a smarter, safer space with expert installation, fitting, and seamless integration of hardware and software. Control your home effortlessly—whether through a touchscreen or your mobile device—tailored to suit your needs.</p>
-						<ul class="text-white text-xl font-lexend font-normal flex flex-col gap-4">
+						<h3 class="text-white text-2xl md:text-3xl font-lexend font-bold">Residential</h3>
+						<p class="text-white text-lg md:text-xl font-lexend font-normal leading-8">Transform your home into a smarter, safer space with expert installation, fitting, and seamless integration of hardware and software. Control your home effortlessly—whether through a touchscreen or your mobile device—tailored to suit your needs.</p>
+						<ul class="text-white text-lg md:text-xl font-lexend font-normal leading-8 flex flex-col gap-4">
 							<li class="flex flex-row items-center justify-start gap-2">
 								<div class="w-7 pt-0.5">
 									<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -86,11 +86,11 @@
 						<img src="@/img/multiple-waves.svg" alt="Multiple Waves" class="size-full object-contain object-bottom rounded-xl" />
 					</div>
 					<div class="flex flex-col items-start justify-start w-full relative z-20 gap-8 p-8 rounded-xl">
-						<h3 class="text-white text-3xl font-lexend font-bold">Commercial</h3>
-						<p class="text-white text-xl font-lexend font-normal">Looking for seamless integration of all your business needs by a team of professionals?</p>
-						<ul class="list-disc text-white text-xl font-lexend font-normal flex flex-col gap-4">
+						<h3 class="text-white text-2xl md:text-3xl font-lexend font-bold">Commercial</h3>
+						<p class="text-white text-lg md:text-xl font-lexend font-normal leading-8">Looking for seamless integration of all your business needs by a team of professionals?</p>
+						<ul class="list-disc text-white text-lg md:text-xl font-lexend font-normal leading-8 flex flex-col gap-4">
 							<li class="flex flex-row items-start justify-start gap-2">
-								<div class="w-7 pt-0.5">
+								<div class="w-7 pt-1">
 									<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 									</svg>
@@ -98,7 +98,7 @@
 								<div class="w-fit">Retrofit</div>
 							</li>
 							<li class="flex flex-row items-start justify-start gap-2">
-								<div class="w-7 pt-0.5">
+								<div class="w-7 pt-1">
 									<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 									</svg>
@@ -106,7 +106,7 @@
 								<div class="w-fit">New Builds</div>
 							</li>
 							<li class="flex flex-row items-start justify-start gap-2">
-								<div class="w-7 pt-0.5">
+								<div class="w-7 pt-1">
 									<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 									</svg>
@@ -114,7 +114,7 @@
 								<div class="w-fit">Office Setup</div>
 							</li>
 							<li class="flex flex-row items-start justify-start gap-2">
-								<div class="w-7 pt-0.5">
+								<div class="w-7 pt-1">
 									<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 									</svg>
@@ -122,7 +122,7 @@
 								<div class="w-fit">Digital Signage</div>
 							</li>
 							<li class="flex flex-row items-start justify-start gap-2">
-								<div class="w-7 pt-0.5">
+								<div class="w-7 pt-1">
 									<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 									</svg>
@@ -130,12 +130,12 @@
 								<div class="w-fit">
 									<div class="flex flex-col">
 										Meeting Rooms
-										<span class="text-sm">Zoom, Teams, Cisco, BYOD/BYOM (Bring your own Device/Bring your own Meeting)</span>
+										<span class="text-sm leading-6">Zoom, Teams, Cisco, BYOD/BYOM (Bring your own Device/Bring your own Meeting)</span>
 									</div>
 								</div>
 							</li>
 							<li class="flex flex-row items-start justify-start gap-2">
-								<div class="w-7 pt-0.5">
+								<div class="w-7 pt-1">
 									<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 									</svg>
@@ -143,12 +143,12 @@
 								<div class="w-fit">
 									<div class="flex flex-col">
 										1st Fix
-										<span class="text-sm">Cable pulls, installation of ground supports, and precise height and requirement assessments for a seamless installation.</span>
+										<span class="text-sm leading-6">Cable pulls, installation of ground supports, and precise height and requirement assessments for a seamless installation.</span>
 									</div>
 								</div>
 							</li>
 							<li class="flex flex-row items-start justify-start gap-2">
-								<div class="w-7 pt-0.5">
+								<div class="w-7 pt-1">
 									<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 									</svg>
@@ -156,26 +156,26 @@
 								<div class="w-fit">
 									<div class="flex flex-col">
 										2nd Fix
-										<span class="text-sm">Professional mounting and installation of all system hardware, tailored to your needs.</span>
+										<span class="text-sm leading-6">Professional mounting and installation of all system hardware, tailored to your needs.</span>
 									</div>
 								</div>
 							</li>
 						</ul>
-						<p class="text-white text-xl font-lexend font-normal">Programming of all these in a custom program designed specifically for your need all the time keeping your brand at the heart of your organization.</p>
+						<p class="text-white text-lg md:text-xl font-lexend font-normal leading-8">Programming of all these in a custom program designed specifically for your need all the time keeping your brand at the heart of your organization.</p>
 					</div>
 				</div>
 			</div>
 			<div class="flex flex-col w-full items-start justify-start gap-8 p-8 bg-blue-900 rounded-xl">
-				<h3 class="text-white text-3xl font-lexend font-bold">Corporate</h3>
+				<h3 class="text-white text-2xl md:text-3xl font-lexend font-bold">Corporate</h3>
 				<div class="flex flex-col lg:flex-row w-full gap-8 mb-4">
 					<div class="flex flex-col w-full lg:w-1/2 xl:w-3/5 gap-8">
-						<p class="text-white text-xl font-lexend font-normal">With the world moving into AI, allow us to position you into this world. With power consumption and the environment in mind, we can help you design your spaces in ways that <a href="https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial" title="E.T. the Extra-Terrestrial"><i>ET</i></a> imagined.</p>
-						<p class="text-white text-xl font-lexend font-normal">We can custom your programming to manage your hardware, making sure that you are getting your return on investment (ROI). Along with the controls elements, allowing the programming to give you full analytics.</p>
+						<p class="text-white text-lg md:text-xl font-lexend font-normal leading-8">With the world moving into AI, allow us to position you into this world. With power consumption and the environment in mind, we can help you design your spaces in ways that <a href="https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial" title="E.T. the Extra-Terrestrial"><i>ET</i></a> imagined.</p>
+						<p class="text-white text-lg md:text-xl font-lexend font-normal leading-8">We can custom your programming to manage your hardware, making sure that you are getting your return on investment (ROI). Along with the controls elements, allowing the programming to give you full analytics.</p>
 					</div>
 					<div class="flex flex-col w-full lg:w-1/2 xl:w-2/5">
-						<ul class="list-disc text-white text-xl font-lexend font-normal flex flex-col gap-4">
+						<ul class="list-disc text-white text-lg md:text-xl font-lexend font-normal leading-8 flex flex-col gap-4">
 							<li class="flex flex-row items-start justify-start gap-2">
-								<div class="w-7 pt-0.5">
+								<div class="w-7 pt-1">
 									<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 									</svg>
@@ -183,7 +183,7 @@
 								<div class="w-fit">The functionality used in the rooms v’s equipment installed.</div>
 							</li>
 							<li class="flex flex-row items-start justify-start gap-2">
-								<div class="w-7 pt-0.5">
+								<div class="w-7 pt-1">
 									<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 									</svg>
@@ -191,7 +191,7 @@
 								<div class="w-fit">Booking your rooms self-serve based on people walking into the rooms.</div>
 							</li>
 							<li class="flex flex-row items-start justify-start gap-2">
-								<div class="w-7 pt-0.5">
+								<div class="w-7 pt-1">
 									<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 									</svg>
@@ -199,7 +199,7 @@
 								<div class="w-fit">Branding the displays maximizing the real estate of your brand.</div>
 							</li>
 							<li class="flex flex-row items-start justify-start gap-2">
-								<div class="w-7 pt-0.5">
+								<div class="w-7 pt-1">
 									<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 									</svg>
@@ -213,9 +213,9 @@
 					<div class="flex flex-col lg:flex-row w-full gap-8">
 						<div class="flex flex-col w-full lg:w-1/3 gap-8 p-8 rounded-xl bg-white/5">
 							<h4 class="text-white text-2xl font-lexend font-bold">AV Systems</h4>
-							<ul class="list-disc text-white text-xl font-lexend font-normal flex flex-col gap-4">
+							<ul class="list-disc text-white text-lg md:text-xl font-lexend font-normal leading-8 flex flex-col gap-4">
 								<li class="flex flex-row items-start justify-start gap-2">
-									<div class="w-7 pt-0.5">
+									<div class="w-7 pt-1">
 										<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 										</svg>
@@ -223,7 +223,7 @@
 									<div class="w-fit">Digital Signage</div>
 								</li>
 								<li class="flex flex-row items-start justify-start gap-2">
-									<div class="w-7 pt-0.5">
+									<div class="w-7 pt-1">
 										<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 										</svg>
@@ -231,7 +231,7 @@
 									<div class="w-fit">Menu Boards</div>
 								</li>
 								<li class="flex flex-row items-start justify-start gap-2">
-									<div class="w-7 pt-0.5">
+									<div class="w-7 pt-1">
 										<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 										</svg>
@@ -239,7 +239,7 @@
 									<div class="w-fit">Audio/PA Systems</div>
 								</li>
 								<li class="flex flex-row items-start justify-start gap-2">
-									<div class="w-7 pt-0.5">
+									<div class="w-7 pt-1">
 										<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 										</svg>
@@ -247,7 +247,7 @@
 									<div class="w-fit">Wayfinding</div>
 								</li>
 								<li class="flex flex-row items-start justify-start gap-2">
-									<div class="w-7 pt-0.5">
+									<div class="w-7 pt-1">
 										<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 										</svg>
@@ -255,7 +255,7 @@
 									<div class="w-fit">AVoIP</div>
 								</li>
 								<li class="flex flex-row items-start justify-start gap-2">
-									<div class="w-7 pt-0.5">
+									<div class="w-7 pt-1">
 										<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 										</svg>
@@ -263,7 +263,7 @@
 									<div class="w-fit">Background Music</div>
 								</li>
 								<li class="flex flex-row items-start justify-start gap-2">
-									<div class="w-7 pt-0.5">
+									<div class="w-7 pt-1">
 										<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 										</svg>
@@ -278,9 +278,9 @@
 							</div>
 							<div class="z-20 flex flex-col items-start justify-start w-full gap-8 p-8 rounded-xl">
 								<h4 class="text-white text-2xl font-lexend font-bold">Unified Collaboration Systems</h4>
-								<ul class="list-disc text-white text-xl font-lexend font-normal flex flex-col gap-4">
+								<ul class="list-disc text-white text-lg md:text-xl font-lexend font-normal leading-8 flex flex-col gap-4">
 									<li class="flex flex-row items-start justify-start gap-2">
-										<div class="w-7 pt-0.5">
+										<div class="w-7 pt-1">
 											<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 											</svg>
@@ -288,7 +288,7 @@
 										<div class="w-fit">Huddle Spaces</div>
 									</li>
 									<li class="flex flex-row items-start justify-start gap-2">
-										<div class="w-7 pt-0.5">
+										<div class="w-7 pt-1">
 											<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 											</svg>
@@ -296,7 +296,7 @@
 										<div class="w-fit">Mobile Carts</div>
 									</li>
 									<li class="flex flex-row items-start justify-start gap-2">
-										<div class="w-7 pt-0.5">
+										<div class="w-7 pt-1">
 											<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 											</svg>
@@ -304,7 +304,7 @@
 										<div class="w-fit">Small, Medium and Large Meeting Rooms</div>
 									</li>
 									<li class="flex flex-row items-start justify-start gap-2">
-										<div class="w-7 pt-0.5">
+										<div class="w-7 pt-1">
 											<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 											</svg>
@@ -312,7 +312,7 @@
 										<div class="w-fit">Bespoke meeting spaces designed to your functionality and use cases</div>
 									</li>
 									<li class="flex flex-row items-start justify-start gap-2">
-										<div class="w-7 pt-0.5">
+										<div class="w-7 pt-1">
 											<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 											</svg>
@@ -320,7 +320,7 @@
 										<div class="w-fit">Video Walls</div>
 									</li>
 									<li class="flex flex-row items-start justify-start gap-2">
-										<div class="w-7 pt-0.5">
+										<div class="w-7 pt-1">
 											<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 											</svg>
@@ -328,7 +328,7 @@
 										<div class="w-fit">Combinable Rooms</div>
 									</li>
 									<li class="flex flex-row items-start justify-start gap-2">
-										<div class="w-7 pt-0.5">
+										<div class="w-7 pt-1">
 											<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 											</svg>
@@ -336,7 +336,7 @@
 										<div class="w-fit">Full application as they combine and uncombined</div>
 									</li>
 									<li class="flex flex-row items-start justify-start gap-2">
-										<div class="w-7 pt-0.5">
+										<div class="w-7 pt-1">
 											<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 											</svg>
@@ -344,7 +344,7 @@
 										<div class="w-fit">Camera Tracking</div>
 									</li>
 									<li class="flex flex-row items-start justify-start gap-2">
-										<div class="w-7 pt-0.5">
+										<div class="w-7 pt-1">
 											<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 											</svg>
@@ -357,9 +357,9 @@
 					</div>
 					<div class="flex flex-col w-full gap-8 p-8 rounded-xl bg-white/5">
 						<h4 class="text-white text-2xl font-lexend font-bold">Consultancy Program</h4>
-						<ul class="list-disc text-white text-xl font-lexend font-normal flex flex-col gap-4">
+						<ul class="list-disc text-white text-lg md:text-xl font-lexend font-normal leading-8 flex flex-col gap-4">
 							<li class="flex flex-row items-start justify-start gap-2">
-								<div class="w-7 pt-0.5">
+								<div class="w-7 pt-1">
 									<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 									</svg>
@@ -367,7 +367,7 @@
 								<div class="w-fit">Listening to the need of the stakeholders</div>
 							</li>
 							<li class="flex flex-row items-start justify-start gap-2">
-								<div class="w-7 pt-0.5">
+								<div class="w-7 pt-1">
 									<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 									</svg>
@@ -375,7 +375,7 @@
 								<div class="w-fit">Translating these requirements into an efficient, valuable and easy to use systems</div>
 							</li>
 							<li class="flex flex-row items-start justify-start gap-2">
-								<div class="w-7 pt-0.5">
+								<div class="w-7 pt-1">
 									<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 									</svg>
@@ -383,7 +383,7 @@
 								<div class="w-fit">Implementing and overseeing the vision created by the teams</div>
 							</li>
 							<li class="flex flex-row items-start justify-start gap-2">
-								<div class="w-7 pt-0.5">
+								<div class="w-7 pt-1">
 									<svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M22 11.0857V12.0057C21.9988 14.1621 21.3005 16.2604 20.0093 17.9875C18.7182 19.7147 16.9033 20.9782 14.8354 21.5896C12.7674 22.201 10.5573 22.1276 8.53447 21.3803C6.51168 20.633 4.78465 19.2518 3.61096 17.4428C2.43727 15.6338 1.87979 13.4938 2.02168 11.342C2.16356 9.19029 2.99721 7.14205 4.39828 5.5028C5.79935 3.86354 7.69279 2.72111 9.79619 2.24587C11.8996 1.77063 14.1003 1.98806 16.07 2.86572M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
 									</svg>

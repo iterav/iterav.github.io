@@ -33,7 +33,7 @@ defineProps({
 
 <template>
 	<div :class="color" class="flex flex-col p-8 gap-8 text-white text-lg font-lexend font-normal rounded-xl shadow-xl">
-		<div>{{ message }}</div>
+		<div class="leading-8">{{ message }}</div>
 		<div class="flex flex-row gap-4">
 			<img v-if="image.length" class="flex flex-col items-center w-[4.5rem] h-[4.5rem] rounded-full" :src="image" :alt="fullName" />
 			<div class="flex flex-col gap-2">

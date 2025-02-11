@@ -94,14 +94,14 @@ async function handleSubmit(event) {
 	<section id="contact" class="flex items-center justify-center py-20 bg-linear-to-b/shorter from-indigo-950 from-30% to-slate-950 to-100% relative overflow-hidden">
 		<div class="absolute z-10 bottom-0 w-full opacity-70">
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-				<path fill="#ffffff" fill-opacity="0.02" d="M0,128L1440,320L1440,320L0,320Z"></path>
+				<path fill="#ffffff" fill-opacity="0.05" d="M0,128L1440,320L1440,320L0,320Z"></path>
 			</svg>
-			<div class="flex w-full bg-red-100 h-[200px] opacity-[0.02]"></div>
+			<div class="flex w-full bg-white h-[200px] opacity-[0.05]"></div>
 		</div>
 		<div class="relative z-20 flex flex-col items-center w-full">
 			<div class="container flex flex-col w-full items-center justify-center gap-12">
 				<h2 class="text-center text-white text-4xl md:text-5xl font-xeola font-black tracking-wide drop-shadow-3xl">Contact our team</h2>
-				<p class="text-center text-white text-lg md:text-xl w-full xl:w-[60%] font-lexend font-normal">We'd love to hear form you! Whether you have questions, need support, or want to learn more about our services, our team is here to help.</p>
+				<p class="text-center text-white text-lg md:text-xl w-full xl:w-[60%] font-lexend font-normal leading-8">We'd love to hear form you! Whether you have questions, need support, or want to learn more about our services, our team is here to help.</p>
 				<div id="contact-form-status" class="hidden w-full items-center justify-center p-4 rounded-xl text-white text-lg md:text-xl font-lexend font-normal transition-all duration-300 ease-in-out"></div>
 				<div class="flex flex-col lg:flex-row items-start justify-start gap-12 w-full">
 					<form class="flex flex-col items-center justify-center gap-8 pt-4 pb-8 px-8 w-full rounded-xl lg:w-2/3 bg-white/5" action="https://formspree.io/f/mjkgyepj" method="POST" @submit.prevent="handleSubmit($event)">

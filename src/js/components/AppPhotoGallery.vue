@@ -58,7 +58,7 @@ const gallery = [{
 		</div>
 		<div class="flex flex-col relative z-20">
 			<div class="flex flex-row items-center justify-center pb-12">
-				<h2 class="text-white text-5xl font-xeola font-black tracking-wide drop-shadow-3xl">Recent Installs</h2>
+				<h2 class="text-center text-white text-4xl md:text-5xl font-xeola font-black tracking-wide drop-shadow-3xl">Recent Installs</h2>
 			</div>
 			<Splide :options="options" role="group" aria-label="Photo Gallery">
 				<SplideSlide v-for="(image, index) in gallery" :key="index" class="flex items-center justify-center">
