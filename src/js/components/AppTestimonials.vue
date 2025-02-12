@@ -3,13 +3,20 @@ import AppTestimonial from '@/js/components/AppTestimonial.vue';
 
 const testimonials = [{
 	color: 'bg-fuchsia-700 lg:bg-blue-900 xl:bg-fuchsia-700',
-	message: 'The service provided by ITer AV has completely transformed the way we do business. The team is incredibly responsive, and the results speak for themselves.',
+	message: 'The service provided by Daphne has completely transformed the way we do business. The team is incredibly responsive, and the results speak for themselves.',
 	stars: 5,
 	image: new URL('@/img/seandelaney.webp', import.meta.url).href,
 	fullName: 'Sean Delaney',
 	jobTitle: 'Director, DelaneyMethod',
 }, {
 	color: 'bg-blue-900 lg:bg-fuchsia-700 xl:bg-blue-900',
+	message: 'Working alongside Daphne was a pleasure. She knows what it takes to get the job done, coordinating and communicating effectively with all team members to ensure client requirements were captured. I would highly recommend Daphne to oversee AV projects from concept design through to installation.',
+	stars: 5,
+	image: new URL('@/img/rachelfrasca.webp', import.meta.url).href,
+	fullName: 'Rachel Frasca',
+	jobTitle: 'Associate Engineer',
+}, {
+	color: 'bg-fuchsia-700 lg:bg-blue-900 xl:bg-fuchsia-700',
 	message: 'We saw a noticeable improvement in efficiency and customer satisfaction within just a few weeks. Highly recommend ITer Audio Visual services to anyone looking to streamline their AV operations!',
 	stars: 5,
 	image: new URL('@/img/ashleyboyd.webp', import.meta.url).href,
