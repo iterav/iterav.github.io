@@ -4,11 +4,11 @@
 <template>
 	<section id="services" class="flex items-center justify-center py-20  bg-linear-to-b/shorter from-slate-800 from-50% to-slate-950 to-100%">
 		<div class="container flex flex-col items-start justify-center gap-12">
-			<h2 class="text-white text-4xl md:text-5xl font-xeola font-black tracking-wide drop-shadow-3xl">AV Services</h2>
+			<h2 class="text-white text-4xl md:text-5xl font-xeola font-black tracking-wide drop-shadow-3xl leading-none">AV Services</h2>
 			<div class="flex flex-col xl:flex-row w-full gap-12">
 				<div class="flex flex-col items-start justify-start w-full xl:w-1/3 relative">
 					<div class="absolute z-10 size-full opacity-20 flex flex-col items-center justify-center rounded-xl">
-						<img src="@/img/home-office.webp" alt="Home Office" class="size-full object-cover object-center rounded-xl" />
+						<img src="@/img/home-office.webp" alt="Photo of Home Office" class="size-full object-cover object-center rounded-xl" />
 					</div>
 					<div class="z-20 flex flex-col items-start justify-start w-full gap-8 p-8 rounded-xl">
 						<h3 class="text-white text-2xl md:text-3xl font-lexend font-bold">Residential</h3>
@@ -88,9 +88,6 @@
 					</div>
 				</div>
 				<div class="flex flex-col items-start justify-start w-full xl:w-2/3 bg-fuchsia-700/50 rounded-xl relative">
-					<div class="absolute z-10 size-full flex flex-col items-center justify-center rounded-xl">
-						<img src="@/img/multiple-waves.svg" alt="Multiple Waves" class="size-full object-contain object-bottom rounded-xl" />
-					</div>
 					<div class="flex flex-col items-start justify-start w-full relative z-20 gap-8 p-8 rounded-xl">
 						<h3 class="text-white text-2xl md:text-3xl font-lexend font-bold">Commercial</h3>
 						<p class="text-white text-lg md:text-xl font-lexend font-normal leading-8">Looking for seamless integration of all your business needs by a team of professionals?</p>
@@ -168,6 +165,9 @@
 							</li>
 						</ul>
 						<p class="text-white text-lg md:text-xl font-lexend font-normal leading-8">Programming of all these in a custom program designed specifically for your need all the time keeping your brand at the heart of your organization.</p>
+					</div>
+					<div class="absolute z-10 size-full flex flex-col items-center justify-center rounded-xl">
+						<img src="@/img/multiple-waves.svg" alt="Illustration of Multiple Waves" class="size-full object-contain object-bottom rounded-xl" />
 					</div>
 				</div>
 			</div>
@@ -279,9 +279,6 @@
 							</ul>
 						</div>
 						<div class="flex flex-col w-full lg:w-2/3 relative">
-							<div class="absolute z-10 size-full opacity-20 flex flex-col items-center justify-center rounded-xl">
-								<img src="@/img/meeting-room.webp" alt="Meeting Room" class="size-full object-cover object-center rounded-xl" />
-							</div>
 							<div class="z-20 flex flex-col items-start justify-start w-full gap-8 p-8 rounded-xl">
 								<h4 class="text-white text-2xl font-lexend font-bold">Unified Collaboration Systems</h4>
 								<ul class="list-disc text-white text-lg md:text-xl font-lexend font-normal leading-8 flex flex-col gap-4">
@@ -358,6 +355,9 @@
 										<div class="w-fit">With the control to enable and disable</div>
 									</li>
 								</ul>
+							</div>
+							<div class="absolute z-10 size-full opacity-20 flex flex-col items-center justify-center rounded-xl">
+								<img src="@/img/meeting-room.webp" alt="Photo of Meeting Room" class="size-full object-cover object-center rounded-xl" />
 							</div>
 						</div>
 					</div>

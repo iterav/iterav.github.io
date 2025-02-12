@@ -47,3 +47,7 @@
 	--animate-beat: beat 2s ease-in-out infinite;
 	--animate-breathe: breathe 2s ease-in-out infinite;
 }
+
+.grecaptcha-badge {
+	visibility: hidden !important;
+}

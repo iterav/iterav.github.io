@@ -6,12 +6,14 @@ import AppHero from '@/js/components/AppHero.vue';
 import AppQuote from '@/js/components/AppQuote.vue';
 import AppServices from '@/js/components/AppServices.vue';
 import AppTestimonials from '@/js/components/AppTestimonials.vue';
+import AppTradeLogos from '@/js/components/AppTradeLogos.vue';
 </script>
 
 <template>
 	<main class="flex-col">
 		<AppHero />
 		<AppExperience />
+		<AppTradeLogos />
 		<AppServices />
 		<AppQuote />
 		<!--

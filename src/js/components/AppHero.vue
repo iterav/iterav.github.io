@@ -2,7 +2,7 @@
 
 <template>
 	<section class="flex flex-col items-center relative -mb-20 overflow-hidden">
-		<div class="flex flex-col w-full items-center relative z-20">
+		<div class="flex flex-col w-full items-center relative z-40">
 			<div class="container flex flex-col items-center justify-start pt-30 pb-20 gap-20">
 				<h1 class="text-center text-white text-4xl md:text-6xl lg:text-7xl font-heading font-black leading-[4.375rem] md:leading-[5rem] lg:leading-[5.625rem] drop-shadow-3xl w-full">
 					Create Next-Gen<br />Audio&nbsp;Visual&nbsp;<br class="flex sm:hidden" />Solutions<br />for Next-Level <br class="flex sm:hidden" />Experiences
