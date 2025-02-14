@@ -38,7 +38,7 @@ const scrollToSection = (sectionId) => {
 		<div class="flex absolute inset-x-0 bottom-0 h-px bg-white/5"></div>
 		<div class="container hidden lg:flex flex-row items-center justify-between">
 			<a href="/" title="ITer Audio Visual (AV)" class="flex flex-row items-center justify-center gap-4">
-				<img src="@/img/iter-audio-visual-icon.png" alt="ITer Audio Visual (AV) Logo" class="w-auto h-[4.375rem]" />
+				<img src="@/img/iter-audio-visual-icon.png" alt="ITer Audio Visual (AV) Logo" width="614" height="273" class="w-auto h-[4.375rem]" />
 				<h1 class="mt-2.5 text-white text-6xl font-xeola font-medium leading-none tracking-wide">ITer AV</h1>
 			</a>
 			<nav aria-label="Global navigation" class="flex flex-row">
@@ -53,7 +53,7 @@ const scrollToSection = (sectionId) => {
 			<div class="container flex flex-row items-center justify-center">
 				<div class="flex flex-row items-center justify-between w-full">
 					<a href="/" title="ITer Audio Visual (AV)" class="flex flex-row items-center justify-center gap-4">
-						<img src="@/img/iter-audio-visual-icon.png" alt="ITer Audio Visual (AV) Logo" class="w-auto h-[3.375rem]" />
+						<img src="@/img/iter-audio-visual-icon.png" alt="ITer Audio Visual (AV) Logo" width="614" height="273" class="w-auto h-[3.375rem]" />
 						<h1 class="mt-2.5 text-white text-5xl font-xeola font-medium leading-none tracking-wide">ITer AV</h1>
 					</a>
 					<button v-if="!isMobileMenuOpen" id="open-menu" type="button" name="open-menu" aria-label="Open Menu" class="text-white hover:text-neutral-300 active:text-neutral-400 cursor-pointer transition-colors duration-300 ease-in-out" @click="toggleMobileMenu">

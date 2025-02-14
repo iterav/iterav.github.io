@@ -141,7 +141,7 @@ async function handleSubmit(event) {
 </script>
 
 <template>
-	<section id="contact" class="flex items-center justify-center py-20 bg-linear-to-b/shorter from-indigo-950 from-30% to-slate-950 to-100% relative overflow-hidden">
+	<section id="contact" class="flex items-center justify-center py-15 md:py-20 bg-linear-to-b/shorter from-indigo-950 from-30% to-slate-950 to-100% relative overflow-hidden">
 		<div class="relative z-20 flex flex-col items-center w-full">
 			<div class="container flex flex-col w-full items-center justify-center gap-12">
 				<h2 class="text-center text-white text-4xl md:text-5xl font-xeola font-black tracking-wide drop-shadow-3xl leading-none">Contact our AV team</h2>

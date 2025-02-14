@@ -6,7 +6,7 @@ const fmpCertificationLogo = new URL('@/img/fmp-certification-logo.png', import.
 </script>
 
 <template>
-	<div class="flex justify-center w-full bg-slate-800 border-px border-b border-white/5 py-20">
+	<div class="flex justify-center w-full bg-slate-800 border-px border-b border-white/5 py-15 md:py-20">
 		<div class="container flex flex-col md:flex-row items-center justify-center md:justify-evenly gap-12 md:gap-0">
 			<div data-aos="fade-up" data-aos-duration="2000" class="flex flex-row items-center justify-center w-auto h-[17.5rem]">
 				<AppLazyImage :src="itilFoundationCertificationLogo" alt="ITIL Foundation Certification Logo" width="340" height="340" class="size-full object-contain" />

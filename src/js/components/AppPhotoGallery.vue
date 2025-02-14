@@ -50,7 +50,7 @@ const gallery = [{
 </script>
 
 <template v-if="gallery.length > 0">
-	<section class="py-20 relative">
+	<section class="py-15 md:py-20 relative">
 		<div class="flex flex-col relative z-20">
 			<div class="flex flex-row items-center justify-center pb-12">
 				<h2 class="text-center text-white text-4xl md:text-5xl font-xeola font-black tracking-wide drop-shadow-3xl leading-none">Recent AV Installs</h2>
