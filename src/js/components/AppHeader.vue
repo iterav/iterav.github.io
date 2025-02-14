@@ -18,7 +18,7 @@ const sections = [{
 }, {
 	id: 'contact',
 	title: 'Contact Us',
-	effects: 'text-white hover:text-white active:text-white inline-flex justify-center rounded-full py-2 px-4 bg-amber-400 hover:bg-amber-500 active:bg-amber-600',
+	effects: 'text-indigo-950 hover:text-indigo-950 active:text-indigo-950 inline-flex justify-center rounded-full py-2 px-4 bg-amber-400 hover:bg-amber-500 active:bg-amber-600',
 }];
 
 const closeMobileMenu = () => isMobileMenuOpen.value = false;

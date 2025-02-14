@@ -9,11 +9,19 @@ export default defineConfig(({ command }) => ({
 	build: {
 		emptyOutDir: true,
 		minify: true,
-		cssCodeSplit: true,
+		cssCodeSplit: false,
 		reportCompressedSize: true,
 		sourcemap: false,
 		output: {
-			sourcemap: true,
+			sourcemap: false,
+		},
+		rollupOptions: {
+			treeshake: true,
+			output: {
+				entryFileNames: `assets/index.js`,
+				chunkFileNames: `assets/index-chunk.js`,
+				assetFileNames: `assets/[name].[ext]`,
+			}
 		},
 	},
 	base: '/', // command === 'serve' ? '/' : '/iterav.github.io/',

@@ -174,7 +174,7 @@ async function handleSubmit(event) {
 							<textarea id="message-input" v-model="fields.message" name="message" rows="8" aria-labelledby="message-label" inputmode="text" :placeholder="errors.message ? errors.message : 'I would like to ask you...'" :class="errors.message ? 'placeholder:text-red-500' : ''" class="text-slate-500 text-lg md:text-xl font-lexend font-normal p-4 rounded-xl bg-white ring-0 outline-0 focus:ring-0 focus:outline-0 appearance-none text-ellipsis text-left transition-colors duration-300 ease-in-out"></textarea>
 						</div>
 						<div class="flex w-full pt-4">
-							<button id="submit" type="submit" name="submit" aria-label="Send message" class="w-full cursor-pointer p-4 rounded-xl text-white text-lg md:text-xl font-lexend font-bold bg-amber-400 hover:bg-amber-500 active:bg-amber-600 transition-colors duration-300 ease-in-out">Send message</button>
+							<button id="submit" type="submit" name="submit" aria-label="Send message" class="w-full cursor-pointer p-4 rounded-xl text-slate-950 text-lg md:text-xl font-lexend font-bold bg-amber-400 hover:bg-amber-500 active:bg-amber-600 transition-colors duration-300 ease-in-out">Send message</button>
 						</div>
 					</form>
 					<div class="flex flex-col items-start justify-start gap-8 p-8 w-full lg:w-1/3 text-white text-lg md:text-xl font-lexend font-normal rounded-xl bg-white/5 relative overflow-hidden">
