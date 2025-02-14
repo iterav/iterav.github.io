@@ -1,4 +1,9 @@
 <script setup lang="js">
+import AppLazyImage from '@/js/components/AppLazyImage.vue';
+
+const homeOffice = new URL('@/img/home-office.webp', import.meta.url).href;
+const multipleWaves = new URL('@/img/multiple-waves.svg', import.meta.url).href;
+const meetingRoom = new URL('@/img/meeting-room.webp', import.meta.url).href;
 </script>
 
 <template>
@@ -7,9 +12,6 @@
 			<h2 class="text-white text-4xl md:text-5xl font-xeola font-black tracking-wide drop-shadow-3xl leading-none">AV Services</h2>
 			<div class="flex flex-col xl:flex-row w-full gap-12">
 				<div class="flex flex-col items-start justify-start w-full xl:w-1/3 relative">
-					<div class="absolute z-10 size-full opacity-20 flex flex-col items-center justify-center rounded-xl">
-						<img src="@/img/home-office.webp" alt="Photo of Home Office" class="size-full object-cover object-center rounded-xl" />
-					</div>
 					<div class="z-20 flex flex-col items-start justify-start w-full gap-8 p-8 rounded-xl">
 						<h3 class="text-white text-2xl md:text-3xl font-lexend font-bold">Residential</h3>
 						<p class="text-white text-lg md:text-xl font-lexend font-normal leading-8">Transform your home into a smarter, safer space with expert installation, fitting, and seamless integration of hardware and software. Control your home effortlessly—whether through a touchscreen or your mobile device—tailored to suit your needs.</p>
@@ -85,6 +87,9 @@
 								<div class="w-fit">Wi-Fi</div>
 							</li>
 						</ul>
+					</div>
+					<div class="absolute z-10 size-full opacity-20 flex flex-col items-center justify-center rounded-xl">
+						<AppLazyImage :src="homeOffice" alt="Photo of Home Office" width="768" height="512" class="size-full object-cover object-center rounded-xl" />
 					</div>
 				</div>
 				<div class="flex flex-col items-start justify-start w-full xl:w-2/3 bg-fuchsia-700/50 rounded-xl relative">
@@ -167,7 +172,7 @@
 						<p class="text-white text-lg md:text-xl font-lexend font-normal leading-8">Programming of all these in a custom program designed specifically for your need all the time keeping your brand at the heart of your organization.</p>
 					</div>
 					<div class="absolute z-10 size-full flex flex-col items-center justify-center rounded-xl">
-						<img src="@/img/multiple-waves.svg" alt="Illustration of Multiple Waves" class="size-full object-contain object-bottom rounded-xl" />
+						<AppLazyImage :src="multipleWaves" alt="Illustration of Multiple Waves" width="1140" height="590" class="size-full object-contain object-bottom rounded-xl" />
 					</div>
 				</div>
 			</div>
@@ -357,7 +362,7 @@
 								</ul>
 							</div>
 							<div class="absolute z-10 size-full opacity-20 flex flex-col items-center justify-center rounded-xl">
-								<img src="@/img/meeting-room.webp" alt="Photo of Meeting Room" class="size-full object-cover object-center rounded-xl" />
+								<AppLazyImage :src="meetingRoom" alt="Photo of Meeting Room" width="800" height="534" class="size-full object-cover object-center rounded-xl" />
 							</div>
 						</div>
 					</div>

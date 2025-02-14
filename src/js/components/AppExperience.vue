@@ -1,4 +1,8 @@
-<script setup lang="js"></script>
+<script setup lang="js">
+import AppLazyImage from '@/js/components/AppLazyImage.vue';
+
+const image = new URL('@/img/audio-wave.svg', import.meta.url).href;
+</script>
 
 <template>
 	<section id="experience" class="flex items-center justify-center bg-slate-800 pt-20">
@@ -8,8 +12,8 @@
 				<p class="font-bold">Proudly originating from Ireland and backed by over 30 years of combined experience, we have spent the past decade serving the corporate and commercial industries in Alberta, Canada.</p>
 				<p>Our install team of certified tradespeople brings extensive expertise in the Irish building industry, ensuring your installation is in trusted hands. A superior polished finish is at the core of our vision.</p>
 				<p>Our consultancy team prioritises end-user functionality, ensuring that your vision for the look, sound, and feel of your spaces is fully realised and fit for purpose. With extensive experience in customer service, we have a proven track record of servicing, supporting, and implementing high-quality audio visual systems tailored to your needs.</p>
-				<div class="absolute z-30 -top-6 right-2 w-[22rem] h-[22rem] opacity-[0.05] flex flex-col items-center justify-center">
-					<img src="@/img/audio-wave.svg" alt="Audio Wave" class="size-full object-contain object-bottom rounded-xl" />
+				<div v-if="image.length" class="absolute z-30 -top-6 right-2 w-[22rem] h-[22rem] opacity-[0.05] flex flex-col items-center justify-center">
+					<AppLazyImage :src="image" alt="Audio Wave" width="352" height="352" classes="object-contain object-bottom rounded-xl w-[22rem] h-[22rem]" />
 				</div>
 			</div>
 		</div>

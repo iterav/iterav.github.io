@@ -3,6 +3,8 @@ import '@splidejs/vue-splide/css';
 
 import { Splide, SplideSlide } from '@splidejs/vue-splide';
 
+import AppLazyImage from '@/js/components/AppLazyImage.vue';
+
 const options = {
 	start: 0,
 	perMove: 1,
@@ -55,7 +57,7 @@ const gallery = [{
 			</div>
 			<Splide :options="options" role="group" aria-label="Photo Gallery">
 				<SplideSlide v-for="(image, index) in gallery" :key="index">
-					<img :src="image.src" :alt="image.alt" :width="image.width" :height="image.height" class="rounded-xl drop-shadow-xl" />
+					<AppLazyImage :src="image.src" :alt="image.alt" :width="image.width" :height="image.height" classes="rounded-xl drop-shadow-xl" />
 				</SplideSlide>
 			</Splide>
 		</div>
