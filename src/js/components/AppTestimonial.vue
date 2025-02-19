@@ -3,7 +3,7 @@ import AppLazyImage from '@/js/components/AppLazyImage.vue';
 import AppStar from '@/js/components/AppStar.vue';
 
 defineProps({
-	color: {
+	classes: {
 		type: String,
 		required: true,
 	},
@@ -43,7 +43,7 @@ defineProps({
 </script>
 
 <template>
-	<div :data-aos="aosType" :data-aos-duration="aosDuration" :class="color" class="flex flex-col p-8 gap-8 text-white text-lg font-lexend font-normal rounded-xl shadow-xl">
+	<div :data-aos="aosType" :data-aos-duration="aosDuration" :class="classes" class="flex flex-col p-8 gap-8 text-white text-lg font-lexend font-normal rounded-xl shadow-xl">
 		<div class="leading-8">{{ message }}</div>
 		<div class="flex flex-row gap-4">
 			<AppLazyImage v-if="image.length" :src="image" :alt="fullName" width="72" height="72" classes="flex flex-col items-center w-[4.5rem] h-[4.5rem] rounded-full" />
